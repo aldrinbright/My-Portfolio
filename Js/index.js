@@ -21,5 +21,24 @@ btn.addEventListener('click',function(){
 
 
 
+navlinks2.forEach(link2 => {
+    link2.addEventListener('click', () => {
+        document.body.classList.toggle('nav-open');
+    });
+});
+
+document.onclick = e => {
+    if (
+        e.target.className !== 'nav__list' &&
+        e.target.className !== 'nav-toggle' &&
+        e.target.className !== 'hamburger' &&
+        e.target.className !== 'nav__list2' 
+    ) {
+        document.body.classList.remove('nav-open');
+        console.log('hello');
+    }
+};
+
+
 
 
