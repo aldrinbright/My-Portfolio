@@ -15,8 +15,8 @@ navlinks.forEach(link => {
 const btn = document.getElementById('to-top');
 
 btn.addEventListener('click',function(){
-    console.log("hello");
-    window.scrollTo(0,0)
+    
+    window.scrollTo(0,0);
 })
 
 
