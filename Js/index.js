@@ -35,7 +35,7 @@ document.onclick = e => {
         e.target.className !== 'nav__list2' 
     ) {
         document.body.classList.remove('nav-open');
-        console.log('hello');
+        
     }
 };
 
