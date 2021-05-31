@@ -562,4 +562,27 @@ header {
     margin: 0 30px;
 }
 
-/* animation */
+
+/* to top button  */
+
+#to-top{
+    outline: none;
+    font-size: 30px;
+    color: var(--darkblue);
+    background-color: var(--shadowoflightblue);
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    height: 50px;
+    width: 50px;
+    z-index: 90;
+    background-color: var(--shadowoflightblue);
+    border-radius: 50%;
+    border: none;
+}
+
+#to-top:hover{
+    opacity: 0.75;
+}
+
+
