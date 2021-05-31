@@ -31,6 +31,18 @@ body {
 
 /* colors */
 
+#main{
+    color: var(--darkblue )!important;
+    font-weight: bold;
+   
+}
+.cursor{
+    color: var(--darkblue);
+    display: none;
+}
+
+
+
 #instagram {
     color: #e1306c;
 }
