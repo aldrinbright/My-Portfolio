@@ -12,12 +12,14 @@ navlinks.forEach(link => {
     });
 });
 
-// animation
+const btn = document.getElementById('to-top');
+
+btn.addEventListener('click',function(){
+    console.log("hello");
+    window.scrollTo(0,0)
+})
 
 
 
-// AOS.init({
-//     offset: 120,
-//     delay: 2,
-//     duration: 400
-// });
+
+
